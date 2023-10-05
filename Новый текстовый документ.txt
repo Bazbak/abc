@@ -1,0 +1,34 @@
+const categories = {
+    'Смартфоны': [
+        {
+            'name': 'Apple Iphone 13',
+            'price': 459_000,
+            'options': {
+                'Производитель': 'Apple',
+                'Диагональ': '6.2',
+            }
+        },
+        {
+            'name': 'Samsung Galaxy S22',
+            'price': 380_000,
+            'options': {
+                'Производительность': 'Samsung',
+                'Диагональ': '5.9'
+            }
+        }
+    ],
+    'Наушники': [
+        {
+            'name': 'Samsung Galaxy Buds 2',
+            'price': 113_000,
+            'options': {
+                'Производитель': 'Samsung',
+                'Сопротивление': '32'
+            }
+        }
+    ]
+};
+
+for (let category of categories) {
+    console.log(category)
+}
